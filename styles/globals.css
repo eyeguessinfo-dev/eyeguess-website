@@ -571,3 +571,38 @@ html {
     0 8px 15px rgba(0, 255, 65, 0.4),
     inset 0 1px 0 rgba(255,255,255,0.3);
 }
+/* Enhanced button styles */
+.secondary-btn {
+  background: linear-gradient(45deg, #1a1a1a, #2a2a2a);
+  border: 2px solid #333;
+  transition: all 0.3s ease;
+  color: white;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.secondary-btn:hover {
+  border-color: #00ff41;
+  transform: translateY(-2px);
+  color: white;
+}
+
+/* Service card enhancements */
+.enhanced-card {
+  background: rgba(30, 30, 30, 0.8);
+  border: 1px solid #333;
+  backdrop-filter: blur(10px);
+  transition: all 0.3s ease;
+  color: white;
+}
+
+.enhanced-card:hover {
+  transform: translateY(-5px);
+  border-color: #00ff41;
+}
+
+.premium-tier-card {
+  background: rgba(20, 20, 20, 0.9);
+  border: 2px solid #00ff41;
+  backdrop-filter: blur(10px);
+}
