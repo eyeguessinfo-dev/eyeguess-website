@@ -33,7 +33,7 @@ const serviceData = [
   },
   {
     id: 3,
-    name: "PARTNERSHIP DEPARTMENT",
+    name: "BASIC PARTNERSHIP AUTOMATION",
     price: "$4,000/mo",
     description: "Hands-free partnership payment system",
     action: "Go Hands-Free",
