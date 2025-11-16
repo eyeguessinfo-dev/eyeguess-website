@@ -2,6 +2,7 @@ import Head from 'next/head';
 import Header from '../components/Header';
 import Hero from '../components/Hero';
 import Services from '../components/Services';
+import Questionnaire from '../components/Questionnaire';
 import Footer from '../components/Footer';
 
 export default function Home() {
@@ -18,6 +19,7 @@ export default function Home() {
       <div className="min-h-screen bg-gray-900">
         <Header />
         <Hero />
+	<Questionnaire />
         <Services />
         <Footer />
       </div>
