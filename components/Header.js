@@ -5,22 +5,17 @@ export default function Header() {
         <div className="text-2xl font-bold font-headline enhanced-glow inline-block px-3 py-1 rounded">
           EyeGuess Consulting
         </div>
-	<nav className="flex gap-4">
-  	  <a href="/support" className="secondary-btn px-4 py-2 rounded-lg">
-    	    Support
-  	  </a>
-  	<a href="#services" className="secondary-btn px-4 py-2 rounded-lg">
-    	    Services
-  	  </a>
-  	  <a href="/support" className="cta-glow px-4 py-2 rounded-lg font-bold">
-    	    Book Audit
-  	  </a>
-	</nav>
         <nav className="flex gap-4">
-          <a href="#services" className="secondary-btn px-4 py-2 rounded-lg">
+          <a href="/" className="secondary-btn px-4 py-2 rounded-lg text-white">
+            Home
+          </a>
+          <a href="/support" className="secondary-btn px-4 py-2 rounded-lg text-white">
+            Support
+          </a>
+          <a href="#services" className="secondary-btn px-4 py-2 rounded-lg text-white">
             Services
           </a>
-          <a href="#audit" className="cta-glow px-4 py-2 rounded-lg font-bold">
+          <a href="/support" className="cta-glow px-4 py-2 rounded-lg font-bold text-white">
             Book Audit
           </a>
         </nav>
