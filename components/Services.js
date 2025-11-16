@@ -35,15 +35,15 @@ const serviceData = [
     id: 3,
     name: "PARTNERSHIP DEPARTMENT",
     price: "$4,000/mo",
-    description: "Ongoing growth management",
-    action: "Scale Your Ecosystem",
+    description: "Hands-free partnership payment system",
+    action: "Go Hands-Free",
     link: "mailto:engage@eyeguess.org?subject=Partnership%20Department%20Service",
     benefits: [
-      "Monthly performance optimization and KPI tracking",
-      "Strategic partner recruitment and onboarding processes",
-      "Quarterly strategic roadmap management and execution",
-      "Custom web development and system enhancements",
-      "Dedicated partnership manager and strategic oversight"
+      "Automated partnership payment processing",
+      "Monthly system maintenance and optimization",
+      "Basic partner onboarding support",
+      "Performance monitoring and reporting",
+      "Light strategic guidance without business takeover"
     ],
     style: "standard"
   }
