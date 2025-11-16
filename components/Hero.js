@@ -23,8 +23,8 @@ export default function Hero() {
           <a href="/support" className="cta-glow px-8 md:px-12 py-4 md:py-6 rounded-lg font-bold text-lg md:text-xl inline-block text-center">
             Book Your Partnership Audit
           </a>
-          <a href="#services" className="secondary-btn px-8 md:px-12 py-4 md:py-6 rounded-lg font-bold text-lg md:text-xl inline-block text-center">
-            Explore Our Services
+          <a href="#legacy" className="secondary-btn px-8 md:px-12 py-4 md:py-6 rounded-lg font-bold text-lg md:text-xl inline-block text-center">
+            Explore Legacy Building
           </a>
         </div>
 
@@ -32,7 +32,7 @@ export default function Hero() {
         <div className="mt-16 flex flex-wrap justify-center gap-8 text-gray-400">
           <div className="flex items-center gap-2">
             <div className="w-2 h-2 bg-matrix-green rounded-full enhanced-glow"></div>
-            <span>Stripe Connect Automation</span>
+            <span>Revenue Automation Setup</span>
           </div>
           <div className="flex items-center gap-2">
             <div className="w-2 h-2 bg-matrix-green rounded-full enhanced-glow"></div>

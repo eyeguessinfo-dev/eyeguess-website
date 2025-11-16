@@ -12,8 +12,8 @@ export default function Header() {
           <a href="/support" className="secondary-btn px-4 py-2 rounded-lg text-white">
             Support
           </a>
-          <a href="#services" className="secondary-btn px-4 py-2 rounded-lg text-white">
-            Services
+          <a href="#legacy" className="secondary-btn px-4 py-2 rounded-lg text-white">
+            Legacy
           </a>
           <a href="/support" className="cta-glow px-4 py-2 rounded-lg font-bold text-white">
             Book Audit
