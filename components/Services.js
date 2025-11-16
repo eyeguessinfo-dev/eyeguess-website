@@ -2,16 +2,16 @@ const serviceData = [
   {
     id: 1,
     name: "PARTNERSHIP AUDIT",
-    price: "$2,500",
+    price: "$20",
     description: "Diagnose your revenue gaps",
     action: "Book Discovery Call",
     link: "mailto:engage@eyeguess.org?subject=Partnership%20Audit%20Inquiry",
     benefits: [
-      "Comprehensive partnership gap analysis",
-      "Competitor landscape assessment",
-      "Revenue opportunity sizing",
-      "Prioritized implementation roadmap",
-      "30-day action plan"
+      "In-depth analysis of your current partnership gaps and opportunities",     
+      "Competitive landscape assessment and market positioning",
+      "Revenue potential analysis and opportunity sizing",
+      "Prioritized implementation roadmap with clear milestones",
+      "30-day actionable plan with immediate next steps"
     ],
     style: "premium"
   },
@@ -23,11 +23,11 @@ const serviceData = [
     action: "Build Your Legacy",
     link: "mailto:engage@eyeguess.org?subject=Partnership%20OS%20Implementation",
     benefits: [
-      "Custom partnership framework design",
-      "Stripe Connect integration & automation",
-      "Partner dashboard development",
-      "Legal contract suite",
-      "Team training & handoff"
+      "Custom partnership framework design and documentation",     
+      "Third-party payment integration and automation setup",
+      "Backend system architecture and API development",     
+      "Enterprise-grade web application development",     
+      "Complete team training and system handoff"
     ],
     style: "standard"
   },
@@ -39,11 +39,11 @@ const serviceData = [
     action: "Scale Your Ecosystem",
     link: "mailto:engage@eyeguess.org?subject=Partnership%20Department%20Service",
     benefits: [
-      "Monthly performance optimization",
-      "Partner recruitment & onboarding",
-      "Strategic roadmap management",
-      "Quarterly business reviews",
-      "Dedicated partnership manager"
+      "Monthly performance optimization and KPI tracking",
+      "Strategic partner recruitment and onboarding processes",
+      "Quarterly strategic roadmap management and execution",
+      "Custom web development and system enhancements",
+      "Dedicated partnership manager and strategic oversight"
     ],
     style: "standard"
   }
@@ -94,18 +94,20 @@ export default function Services() {
                   </li>
                 ))}
               </ul>
-
-              <a 
+              <a
                 href={service.link}
-                className='w-full block text-center py-4 px-6 rounded-lg font-bold text-lg transition-all duration-300 hover:scale-105'
-                style={{ 
+                className='w-full block text-center py-4 px-6 rounded-lg font-bold text-lg transition-all duration-300 hover:scale-105 no-underline'
+                style={{
                   minHeight: '44px',
-                  background: service.style === 'premium' 
+                  background: service.style === 'premium'
                     ? 'linear-gradient(45deg, #00ff41, #008f39)'
                     : 'linear-gradient(45deg, #1a1a1a, #2a2a2a)',
-                  border: service.style === 'premium' 
+                  border: service.style === 'premium'
                     ? '2px solid #00ff41'
-                    : '2px solid #333'
+                    : '2px solid #333',
+                  color: service.style === 'premium'
+                    ? '#1a1a1a'  // Dark text on green background for contrast
+                    : '#ffffff'  // White text on dark background
                 }}
               >
                 {service.action}

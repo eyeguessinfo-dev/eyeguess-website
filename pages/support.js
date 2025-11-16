@@ -9,9 +9,9 @@ const supportTiers = [
     price: "$49/month",
     description: "Monthly strategic guidance & planning",
     features: [
-      "Deep dive into your partnership challenges",
+      "Monthly strategic planning & partnership roadmap",
       "Customized revenue framework", 
-      "Developmental integration roadmap",
+      "Integration roadmap & Technical requirements",
       "30-day action plan",
       "Recorded session + summary notes"
     ],
@@ -21,17 +21,16 @@ const supportTiers = [
   {
     id: 2,
     name: "CONTENT DEVELOPMENT",
-    price: "$1,199/month",
-    description: "Full content creation & management",
+    price: "$1,799/month",
+    description: "End-to-end content strategy, production & optimization",
     features: [
-      "Monthly content development & management",
-      "Full partnership ecosystem audit",
-      "Competitor analysis & gap assessment", 
-      "Revenue opportunity report",
-      "Implementation priority list",
-      "1-hour follow-up Q&A session",
-      "Video & photography production",
-      "Complete content creation & maintenance"
+      "Monthly content calendar & strategic planning",
+      "Full content production: video, photography, and written content",
+      "Pre-production planning: shot lists, scripts, and storyboards",
+      "Platform-specific formatting & distribution strategy",      
+      "Performance analytics & monthly optimization reports", 
+      "Ongoing content maintenance & refresh cycles",
+      "Pre-Production check lists" 
     ],
     paymentLink: "https://buy.stripe.com/aFa00kbUg29BfADcE99IQ01", // Replace with actual Stripe payment link
     cta: "Start Content Development"
@@ -42,13 +41,12 @@ const supportTiers = [
     price: "$3,999/month",
     description: "Comprehensive partnership management",
     features: [
-      "4 hours of monthly consulting",
-      "Unlimited email support", 
-      "Partnership strategy reviews",
-      "Setup assistance",
-      "Priority access to new frameworks",
-      "Everything included in previous tiers",
-      "Complete strategic oversight"
+      "4 hours of monthly 1:1 strategic consulting sessions",
+      "Unlimited email & messaging support for quick decisions",
+      "Quarterly partnership strategy reviews & performance audits",     
+      "Priority access to new partnership frameworks & tools",    
+      "Setup & technical implementation assistance",
+      "Full content development suite (everything from Content tier)"     
     ],
     paymentLink: "https://buy.stripe.com/3cI6oIbUg01t1JN1Zv9IQ02", // Replace with actual Stripe payment link
     cta: "Start Full Advisory"
